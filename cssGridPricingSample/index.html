@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pricing</title>
+   </head>
+   <body>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&family=Roboto&display=swap');
+
+
+        body {
+            background: url("https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg");
+            background-size: 1600px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+
+         nav {
+            position: fixed;
+            font-weight: 400;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+         }
+
+         nav a {
+            color: black;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 20px;
+            text-decoration: none;
+         }
+
+         .container-1 {
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+         }
+
+         .container-1 div {
+            border: 3px #ccc solid;
+            border-radius: 10px;
+            padding: 10px;
+            width: 200px;
+            height: 370px;
+         }
+
+         .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+
+         .consult {
+            background-color: powderblue;
+            color: green;
+         }
+
+         .care {
+            background-color: pink;
+            color: green;
+         }
+
+         .create {
+            background-color: peachpuff;
+            color: green;
+         }
+
+         .welcome-section {
+            color: salmon;
+            justify-content: center;
+            display: flex;
+            font-size: 30px;
+            margin: 2%;
+         }
+
+         .try-for-free {
+            color: white;
+            background: palevioletred;
+            border: palevioletred;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+         }
+
+         @media (max-width: 1224px) {
+            .container-1 {
+               display: flex;
+               justify-content: center;
+               flex-wrap: wrap;
+            }
+         }
+      </style>
+
+      <nav id="navbar" class="nav">
+         <ul class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#pricing">Pricing</a>
+         </ul>
+      </nav>
+
+      <div class="welcome-section">
+         <h1 id="pricing">Pricing</h1>
+      </div>
+
+      <div class="container-1">
+         <div class="box consult">
+            <h2>Consult</h2>
+            <h1>$14</h1>
+            <p>Per active member</p>
+            <p>PERFECT FOR:</p>
+            <ul>
+               <li>Sales Executive</li>
+               <li>Consultants</li>
+               <li>Tutors</li>
+            </ul>
+
+            <button type="submit" class="try-for-free">Try for free</button>
+         </div>
+
+         <div class="box care">
+            <h2>Care</h2>
+            <h1>$49</h1>
+            <p>Per active member</p>
+            <p>PERFECT FOR:</p>
+            <ul>
+               <li>Physicians</li>
+               <li>Therapist</li>
+               <li>Health Professionals</li>
+            </ul>
+            <button type="submit" class="try-for-free">Try for free</button>
+         </div>
+
+         <div class="box create">
+            <h2>Create</h2>
+            <h1>$99</h1>
+            <p>Per active member:</p>
+            <p>PERFFECT FOR</p>
+            <ul>
+               <li>Digital Services</li>
+               <li>Enterprise</li>
+               <br />
+            </ul>
+            <button type="submit" class="try-for-free">Try for free</button>
+         </div>
+      </div>
+   </body>
+</html>
